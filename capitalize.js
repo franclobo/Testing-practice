@@ -3,6 +3,3 @@ const capitalize = (str) => {
 }
 
 module.exports = capitalize
-
-const word = 'hello';
-console.log(capitalize('hello'));
