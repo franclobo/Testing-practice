@@ -31,6 +31,6 @@ class Calculator {
     const divide = num1 / num2;
     return divide.toFixed(2);
   }
-};
+}
 
 module.exports = Calculator;

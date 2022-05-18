@@ -1,9 +1,8 @@
 const assert = require('assert');
-const Calculator = require('./calculator');
+const Calculator = require('./calculator.js');
 
-describe('Tests', function () {
-  it('calculator_works', () => {
-    
+describe('Tests', () => {
+  it('calculator_works', () => {    
     const calculator = new Calculator;
     calculator.add(2, 3);
     assert(5);
