@@ -29,8 +29,8 @@ class Calculator {
     num1 = this.num1;
     num2 = this.num2;
     const divide = num1 / num2;
-    return divide;
+    return divide.toFixed(2);
   }
-}
+};
 
 module.exports = Calculator;

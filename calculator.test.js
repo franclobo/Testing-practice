@@ -1,20 +1,20 @@
-const Calculator = require('./calculator')
-const assert = require('assert')
+const assert = require('assert');
+const Calculator = require('./calculator');
 
 describe('Tests', function () {
   it('calculator_works', () => {
     
     const calculator = new Calculator;
-    calculator.add(2, 3)
-    assert(5)
+    calculator.add(2, 3);
+    assert(5);
 
-    calculator.subtract(2, 3)
-    assert(-1)
+    calculator.subtract(2, 3);
+    assert(-1);
 
-    calculator.multiply(2, 3)
-    assert(6)
+    calculator.multiply(2, 3);
+    assert(6);
 
-    calculator.divide(2, 3)
-    assert(0.67)
+    calculator.divide(2, 3);
+    assert(0.67);
   })
-})
+});
