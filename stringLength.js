@@ -1,5 +1,5 @@
 const stringLength = (str) => {
-  let count = str.length <= 10 && str.length > 1 ? str.length : false
+  const count = str.length <= 10 && str.length > 1 ? str.length : false;
   return count;
 };
 
